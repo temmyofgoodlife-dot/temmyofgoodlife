@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daniel Automobile - Ford Specialist</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #f5c518;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      background: rgba(0,0,0,0.6);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      margin-top: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .call {
+      background: green;
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #111;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    🚗 DANIEL AUTOMOBILE (FORD SPECIALIST)
+  </header>
+
+  <div class="hero">
+    <h1>Trusted Ford Repair Experts in Lagos</h1>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>About Us</h2>
+      <p>We specialize in Ford vehicles diagnostics, repairs, engine servicing, and maintenance. Fast, reliable, and affordable.</p>
+    </div>
+
+    <div class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Engine Repair</li>
+        <li>Car Diagnostics</li>
+        <li>Oil Change</li>
+        <li>Full Maintenance</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Contact Us</h2>
+
+      <a class="btn call" href="tel:08162422111">📞 Call Now</a>
+      
+      <a class="btn whatsapp" 
+         href="https://wa.me/2348162422111" 
+         target="_blank">
+         💬 WhatsApp Us
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Daniel Automobile | Built for Ford Specialists
+  </footer>
+
+</body>
+</html>
